@@ -2,9 +2,11 @@
   "name": "jfdz2-tubersi-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Tubersi.github.io/Tubersi-app/",
   "dependencies": {
     "animate.css": "^3.6.1",
     "firebase": "^5.2.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.4.0",
@@ -19,6 +21,8 @@
     "video-react": "^0.13.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
