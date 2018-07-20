@@ -1,0 +1,27 @@
+{
+  "name": "jfdz2-tubersi-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "firebase": "^5.2.0",
+    "react": "^16.4.1",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.4.0",
+    "react-fade-in": "^0.1.6",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-text-marquee": "^1.0.1",
+    "react-youtube": "^7.6.0",
+    "recharts": "^1.0.1",
+    "redux": "^4.0.0",
+    "video-react": "^0.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
